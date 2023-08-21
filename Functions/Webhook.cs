@@ -60,7 +60,7 @@ namespace Functions
 
             // オウム返しする
             // この一行をコメントアウトする
-            await Reply(firstEvent.ReplyToken, firstEvent.Message.Text);
+            // await Reply(firstEvent.ReplyToken, firstEvent.Message.Text);
 
             // 以下のコメントアウトをはずす
             var prompt = firstEvent.Message.Text;
